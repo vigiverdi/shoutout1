@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "bodyfont";
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+ font-family: "headfont";
+  src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+
+.channelName {
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 2%;
+  font-family: "bodyfont";
+  font-size: 20px;
+  padding-left: 4px;
+  
+}
+.odometer {
+	font-size: 35px;
+  font-family : headfont;
+  font-weight: bold;
+  
+  margin: 0px;
+    margin-left:  4px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.channelImage {
+border-radius:  0px 0px 0px 0px;
+height: 83x;
+width: 83px;
+float: left;
+margin: 2px;
+}
+
+
+
+.card-content {
+  box-sizing: content-box;  
+  padding: 0px;
+}
+
+.card {
+  float: left;
+  margin: -1px;
+
+  border: 0.5px solid silver;
+  
+  width: 300px;
+  height: 90px;
+  border-radius: 0px 0px 0px 0px;
+  transition: background-color 5s;
+  background-color: rgb(255, 255, 255);
+}
+
+hr.new {
+margin: 6px ;
+ margin-right: 3px;
+  margin-left: 0px;
+        position: relative; 
+            top: 2px; 
+            border: none; 
+            height: 1px; 
+            background: silver;
+
+
+   
+}
+
+  @-webkit-keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 255); }
+    to { background-color: goldenrod; }
+
+  }
+  @-moz-keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 255); }
+    to { background-color: goldenrod; }
+  
+  }
+  @keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 255); }
+    to { background-color: goldenrod; }
+
+  }
+  .activee {
+  -webkit-animation: argh-my-eyes .5s infinite alternate;
+  -moz-animation:    argh-my-eyes .5s infinite alternate;
+  animation:         argh-my-eyes 10.1s infinite alternate;
+  }
